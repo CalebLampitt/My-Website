@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+
+h1 {
+	color: orange;
+	text-align: center;
+	min-height: 20vh; 
+	background-image: url("https://www.teahub.io/photos/full/288-2885603_synthwave-wallpaper-gif.gif");
+	background-size: 100% 100%;
+	
+	
+	/*Centering*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+ body{
+	 background-color: #242424;
+	 
+ }
+ h2{
+	 -webkit-animation:colorchange 20s infinite;
+}
+
+   
+ h3{
+	 color:orange;
+ }
+ 
+
+.topnav {
+  background-color: Black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffc800;
+  color: Black;
+}
+.login-container{
+	 float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+h3 {
+	text-align: left;
+	color: orange;
+}
+section {
+	border: 3px solid #e200f7;
+	padding: 5px;
+	
+	margin: 20px auto;
+	background-color: black ;
+	box-shadow: 5px 5px #3f1091;/*shadow for section box*/
+	border-radius: 10px;/*CSS Rounded Corners*/
+}
+p{
+	color: white;
+}
+
+
+
+nav {
+	background-color: black; 
+	padding: 10px 10px 10px 10px;
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
+
+.active2 {
+	background-color: #e200f7;
+	
+}
+
+nav ul li a:hover:not(.active) {
+	background-color: orange; 
+	color: Black;
+}
+@media only screen and (max-width: 600px) {
+	.main-container {
+		flex-direction: column;
+	}
+}
+
+
+	
+footer{
+    text-align: center;
+    background-color: black;
+	text-align: center;	
+	padding: 10px 10px 10px 10px;
+}
+	.awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      margin: 0 auto;
+      text-align: center;
+      color:#313131;
+      font-weight: bold;
+      
+      -webkit-animation:colorchange 20s infinite;
+      
+      
+    }
+/*color change effect*/
+ @-webkit-keyframes colorchange {
+      0% {
+        
+        color: red;
+      }
+      
+      14% {
+        
+        color: orange;
+      }
+      
+      28% {
+        
+        color: yellow;
+      }
+      
+      43% {
+        
+        color: green;
+      }
+      
+      57% {
+        
+        color: blue;
+      }
+      
+      71% {
+        
+        color: #f227ef;
+      }
+      
+      85% {
+        
+        color: purple;
+      }
+      
+      100% {
+        
+        color: red ;
+      }
+	 
+      
+    }
+
+
+    
